@@ -3,17 +3,24 @@ function helloWorld() {
     return "Hello, World!";
 }
 
-function sum(a, b) {
-    if(b === "sheep"){
-        return false;
+function sayHello(input) {
+    if (input === "Alex", "Jane", "Pat") {
+        return "Hello, " + input + "!";
     }
-    return a + b;
 }
 
-function isEven(input) {
-    if(input > 3){
-        return true;
-    }else {
-        return false;
-    }
-}
+
+// function sum(a, b) {
+//     if(b === "sheep"){
+//         return false;
+//     }
+//     return a + b;
+// }
+//
+// function isEven(input) {
+//     if(input > 3){
+//         return true;
+//     }else {
+//         return false;
+//     }
+// }
